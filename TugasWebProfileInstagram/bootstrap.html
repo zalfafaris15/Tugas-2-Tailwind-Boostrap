@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Profile - Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+
+<div class="container py-5">
+  <!-- Profile Header -->
+  <div class="d-flex align-items-center mb-4">
+    <img src="data:image/png;base64,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" 
+         class="rounded-circle border me-4" 
+         alt="Profile" width="120" height="120">
+    <div>
+      <h4 class="fw-bold mb-1">faris_jersey_store</h4>
+      <div class="mb-2">
+        <button class="btn btn-primary btn-sm me-2">Follow</button>
+        <button class="btn btn-outline-light btn-sm">Message</button>
+      </div>
+      <p class="mb-1"><b>120</b> Posts &nbsp;&nbsp; <b>5.4k</b> Followers &nbsp;&nbsp; <b>230</b> Following</p>
+      <p class="text-muted mb-0">Toko Jersey Bola 👕🔥</p>
+      <p class="mb-0">Menjual jersey original & premium kualitas terbaik.<br>
+        Order via DM 📩 | Fast Response ⚡<br>
+        <b>Zalfa Faris Ibrahim - 2411102441136</b>
+      </p>
+    </div>
+  </div>
+
+  <!-- Story Highlights -->
+<div class="d-flex justify-content-center mb-4">
+  <!-- Highlight 1 -->
+  <div class="text-center mx-3">
+    <div class="rounded-circle border border-secondary" style="width:70px; height:70px; overflow:hidden;">
+      <img src="data:image/jpeg;base64,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" alt="Merchant" class="w-100 h-100">
+    </div>
+    <small class="d-block mt-2 text-white">MERCHANT</small>
+  </div>
+
+  <!-- Highlight 2 -->
+  <div class="text-center mx-3">
+    <div class="rounded-circle border border-secondary" style="width:70px; height:70px; overflow:hidden;">
+      <img src="https://asset.mediaindonesia.com/news/2020/06/7879496320f44fa47b027ecbf28331e4.jpeg" alt="STADION" class="w-100 h-100">
+    </div>
+    <small class="d-block mt-2 text-white">STADION</small>
+  </div>
+
+  <!-- Highlight 3 -->
+  <div class="text-center mx-3">
+    <div class="rounded-circle border border-secondary" style="width:70px; height:70px; overflow:hidden;">
+      <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98w-lme4p0f6k790f7" alt="Benefits" class="w-100 h-100">
+    </div>
+    <small class="d-block mt-2 text-white">BENEFITS</small>
+  </div>
+
+  <!-- Highlight 4 -->
+  <div class="text-center mx-3">
+    <div class="rounded-circle border border-secondary" style="width:70px; height:70px; overflow:hidden;">
+      <img src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/577/2025/06/21/IMG-20250621-WA0104-4007964987.jpg" alt="PEMAIN" class="w-100 h-100">
+    </div>
+    <small class="d-block mt-2 text-white">PEMAIN</small>
+  </div>
+
+  <!-- Highlight 5 -->
+  <div class="text-center mx-3">
+    <div class="rounded-circle border border-secondary" style="width:70px; height:70px; overflow:hidden;">
+      <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk5-maggr6rdohnv1d" alt="Wallpaper" class="w-100 h-100">
+    </div>
+    <small class="d-block mt-2 text-white">WALLPAPER</small>
+  </div>
+</div>
+
+
+  <!-- Tabs -->
+  <ul class="nav nav-tabs justify-content-center mb-4 border-light">
+    <li class="nav-item">
+      <a class="nav-link active bg-dark text-white" href="#">Posts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link bg-dark text-white" href="#">Reels</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link bg-dark text-white" href="#">Tagged</a>
+    </li>
+  </ul>
+
+  <!-- Gallery -->
+  <div class="row g-2">
+    <div class="col-4"><img src="https://pbs.twimg.com/media/Gw_1UqVb0AAuH4a?format=jpg&name=4096x4096" class="img-fluid"></div>
+    <div class="col-4"><img src="https://media.asroma.com/prod/images/large_portrait_fill/1624128c3c42-adidasromathird-7409067-4x5.jpg" class="img-fluid"></div>
+    <div class="col-4"><img src="https://msretro.com/cdn/shop/files/4451A6CD-61BD-41B4-8C27-C51F4BA8DDB7.jpg?v=1751620960&width=1445" class="img-fluid"></div>
+    <div class="col-4"><img src="https://mbdftaz38k2j4h6snxprqgu-admin.persibstore.id/assets/preview/8f/25-26-jersey-replica-away-1__preview.jpg?w=800" class="img-fluid"></div>
+    <div class="col-4"><img src="https://img.lazcdn.com/g/p/fb45207eb43dcda140c919faac91845b.jpg_720x720q80.jpg" class="img-fluid"></div>
+    <div class="col-4"><img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2025/5/28/b32d3c37-b546-4418-b0f6-1e486c7b3b78.jpg" class="img-fluid"></div>
+    <div class="col-4"><img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/108/MTA-160958717/adidas_adidas-inter-miami-cf-23-24-messi-away-jersey-replica-youth-black-je9740-_full01.jpg" class="img-fluid"></div>
+    <div class="col-4"><img src="https://images.tokopedia.net/img/cache/700/hDjmkQ/2022/5/23/7609c43d-454a-4ab2-82ef-5653e8744652.jpg" class="img-fluid"></div>
+    <div class="col-4"><img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/112/MTA-177934765/adidas_jersey_as_roma_24-25_home_it6058_-_20242_full04_rcoomek4.jpg" class="img-fluid"></div>
+<div class="col-4"><img src="https://pbs.twimg.com/media/Gw_1UqVb0AAuH4a?format=jpg&name=4096x4096" class="img-fluid"></div>
+<div class="col-4"><img src="https://pbs.twimg.com/media/Gw_1UqVb0AAuH4a?format=jpg&name=4096x4096" class="img-fluid"></div>
+<div class="col-4"><img src="https://pbs.twimg.com/media/Gw_1UqVb0AAuH4a?format=jpg&name=4096x4096" class="img-fluid"></div>
+  </div>
+</div>
+
+</body>
+</html>
